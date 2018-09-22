@@ -1,0 +1,48 @@
+%#BIBTEX pbibtex Publications; pbibtex conferencesInt; pbibtex conferencesDom; pbibtex awards
+\documentclass{jsarticle}
+%\documentclass{article}
+\usepackage{multibib}
+%\renewcommand{\refname}{Papers}
+\renewcommand{\refname}{査読付き論文}
+\makeatletter
+\renewcommand{\@biblabel}[1]{$\bullet\ $}
+\makeatother
+%\newcites{conferences,awards}{{Presentations at Conferences},Awards}
+\newcites{conferencesInt,conferencesDom,awards}{{国際会議における発
+表},{国内の会議における発表},{賞罰}}
+%\title{Publication List}
+%\author{Taro Fukazawa (深澤 太郎)}
+\title{業績リスト}
+\author{深澤 太郎}
+%\date{}
+\begin{document}
+\maketitle
+
+\nocite{*}
+\nociteconferencesInt{*}
+\nociteconferencesDom{*}
+\nociteawards{*}
+
+% Publications
+%\bibliographystyle{unsrt}
+\bibliographystyle{junsrt}
+\bibliography{gyoseki}
+
+%% Conferences
+%\bibliographystyleconferences{unsrt}
+%\bibliographyconferences{conferences}
+
+% Conferences
+\bibliographystyleconferencesInt{junsrt}
+\bibliographyconferencesInt{conferencesInt}
+
+% Conferences
+\bibliographystyleconferencesDom{junsrt}
+\bibliographyconferencesDom{conferencesDom}
+
+% Awards
+\bibliographystyleawards{junsrt}
+\bibliographyawards{awards}
+
+
+\end{document}
