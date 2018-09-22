@@ -2,10 +2,10 @@ Publication list
 ================
 This is a set of LaTeX files for my publication list.
 
-PDF files
+PDF files of the latest release
 ---------
-* Publication list (in English): Publication_english.pdf
-* Publication list (in Japanese): Publication.pdf
+* [English version] (https://github.com/horacero/Publication/blob/LatestRelease/Publications_english.pdf)
+* [Japanese version] (https://github.com/horacero/Publication/blob/LatestRelease/Publications.pdf)
 
 DO NOT Distribute
 -----------------
