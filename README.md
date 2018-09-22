@@ -4,8 +4,8 @@ This is a set of LaTeX files for my publication list.
 
 PDF files of the latest release
 ---------
-* [English version] (https://github.com/horacero/Publication/blob/LatestRelease/Publications_english.pdf)
-* [Japanese version] (https://github.com/horacero/Publication/blob/LatestRelease/Publications.pdf)
+* [English version](https://github.com/horacero/Publication/blob/LatestRelease/Publications_english.pdf)
+* [Japanese version](https://github.com/horacero/Publication/blob/LatestRelease/Publications.pdf)
 
 DO NOT Distribute
 -----------------
