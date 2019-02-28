@@ -1,18 +1,22 @@
 %#BIBTEX pbibtex Publications_english; pbibtex conferencesInt; pbibtex awards
 \documentclass{article}
 \usepackage{multibib}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\newcommand*{\Ja}[1]{\begin{CJK}{UTF8}{ipxm}#1\end{CJK}}
+
 \renewcommand{\refname}{{Original Papers}}
-%\renewcommand{\refname}{$B::FIIU$-O@J8(B}
+%\renewcommand{\refname}{査読付き論文}
 \makeatletter
 \renewcommand{\@biblabel}[1]{$\bullet\ $}
 \makeatother
 \newcites{conferencesInt,awards}{{Presentations at Conferences},Awards}
-%\newcites{conferencesInt,conferencesDom,awards}{{$B9q:]2q5D$K$*$1$kH/(B
-%$BI=(B},{$B9qFb$N2q5D$K$*$1$kH/I=(B},{$B>^H3(B}}
-\author{Taro Fukazawa ($B?<_7(B $BB@O:(B)}
+%\newcites{conferencesInt,conferencesDom,awards}{{国際会議における発
+%表},{国内の会議における発表},{賞罰}}
+\author{Taro Fukazawa \Ja{(深澤 太郎)}}
 \title{Publication List}
-%\title{$B6H@S%j%9%H(B}
-%\author{$B?<_7(B $BB@O:(B}
+%\title{業績リスト}
+%\author{深澤 太郎}
 %\date{}
 \begin{document}
 \maketitle
